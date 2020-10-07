@@ -1,0 +1,196 @@
+#变量名:
+#@player (玩家名称)
+#@BoosName (Boos的名称)
+#@World  (世界名)
+#@X,Y,Z  (坐标)
+#1.7.10-1.12.2
+#盖亚一
+Boss:
+  BOTANIA_MANARESOURCE:4:
+    #是否开启(关闭之后服务器将全局禁止召唤盖亚)
+    enable: true
+    #冷却时间(以秒为单位)
+    time: 100
+    #是否开启玩家召唤盖亚时全服提示(全服玩家可见)
+    motdEnable: true
+    #设置全局提示内容（注意变量名）
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    #BOOS名称(可以随意定义)
+    name: 盖亚一
+    #生命值
+    health: 80000
+    #是否监听，如果你不需要此功能可以关闭，可以给服务器提升 0.08%的性能 1.19版本新加功能
+    listener: true
+    #监听类
+    event: gaia
+    #世界黑名单(禁止盖亚在某一世界生成)
+    world:
+       - 填世界名
+ #1.7.10-1.12.2
+ #盖亚二
+  BOTANIA_MANARESOURCE:14:
+    enable: true
+    time: 200
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: 盖亚二
+    listener: true
+    event: gaia
+    world:
+      - 填世界名
+  #1.7.10
+  #如果你是1.12.2不用管这里
+  #盖亚三
+  EXTRABOTANY_GAIAWISE:
+    enable: true
+    time: 300
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: 盖亚三
+    listener: true
+    event: gaia
+    world:
+      - 填世界名
+  #1.12.2
+  #盖亚3
+  #用挑战卷召唤的
+  EXTRABOTANY_MATERIAL:6:
+    enable: true
+    time: 300
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: 盖亚三
+    listener: true
+    event: gaia
+    world:
+      - 填世界名
+  #1.12.2
+  #盖亚3
+  #用自然蕴息宝珠召唤的
+  EXTRABOTANY_NATUREORB:
+    enable: true
+    time: 300
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: 盖亚三
+    listener: true
+    event: gaia
+    world:
+      - 填世界名
+  #1.12.2
+  #空之律者
+  EXTRABOTANY_MATERIAL:9:
+    enable: true
+    time: 500
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: 空之律者
+    listener: true
+    event: gaia
+    world:
+      - 填世界名
+  #1.7.10
+  #如果你是1.12.2不用管这里
+  #艾尔夫海姆
+  BOTANIA_FLUGELEYE:
+    enable: true
+    time: 500
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: 艾尔夫海姆
+    listener: true
+    event: gaia
+    world:
+      - 填世界名
+  #全版本
+  #凋零BOOS
+  SKULL_ITEM:1:
+    enable: true
+    time: 120
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: 凋零
+    listener: true
+    event: withered
+    world:
+      - 填世界名
+  #雪人
+  SNOWMAN:
+    enable: true
+    time: 60
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: 雪人
+    listener: true
+    event: sonwman
+    world:
+      - 填世界名
+  #铁傀儡
+  IRON_BLOCK:
+    enable: true
+    time: 60
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: 铁傀儡
+    listener: true
+    event: ironman
+    world:
+      - 填世界名
+ #末影龙
+  Dragon:
+    enable: true
+    time: 1000
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: 末影龙
+    listener: true
+    event: Dragon
+    world:
+      - 填世界名
+  #1.12.2自然誓约Boss
+  NaturalPledge:
+    enable: true
+    time: 1000
+    motdEnable: true
+    motdPrefix: '&c[Server]:&a玩家&6{Player}&a召唤了&d{Boss},&a位置:&b{World}&aX=&b&l{X}&a,Y=&b&l{Y}&a,Z=&b&l{Z}'
+    health: 80000
+    name: null
+    listener: true
+    event: NaturalPledge
+    world:
+      - 填世界名
+
+
+
+permissions:
+  #不够可以自己加
+  # 冷却缩减
+  Cooling.time.vip1: 90
+  Cooling.time.vip2: 80
+  Cooling.time.vip3: 70
+  Cooling.time.vip4: 60
+  Cooling.time.vip5: 50
+  Cooling.time.vip6: 40
+  Cooling.time.vip7: 30
+  Cooling.time.vip8: 10
+
+world:
+  plotworld: '&a[&e地皮世界&a]'
+  world: '&a[&a资源世界&a]'
+
+messages:
+   WORLD_MESSAGE: '&7[&cServer&7] &c你所在的世界禁止召唤&d%Boss%'
+   SERVER_MESSAGE: '&7[&cServer&7]  &c服务器禁止召唤&d%Boss%'
+   TIME_MESSAGE: '&7[&cServer&7] 您当前冷却缩减率为:&b%cooling%%&7, 需要等待&e(%time% * %cooling%)%= %coolingTime%&7秒后刷新!'
+   PLAYERSUMMONINGGAIA_MESSAGE: '&7[&cServer&7]  &a你成功召唤了&d%Boss%&a,下次刷新时间为:&e%BossCooling%&a秒'
+   GAIASTRUCTURE: '&7[&cServer&7]  &a召唤盖亚时请把盖亚仪式内的方块清理干净!'

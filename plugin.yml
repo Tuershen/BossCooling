@@ -1,0 +1,14 @@
+name: BossCooling
+main: pers.tuershen.bosscooling.BossCoolingPlugin
+version: 1.20
+author: 兔儿神
+commands:
+  ts:
+
+permissions:
+  Cooling.reload:
+    description: 重载插件
+    default: op
+  Cooling.time.default:
+    description: 冷却缩减
+    default: true
