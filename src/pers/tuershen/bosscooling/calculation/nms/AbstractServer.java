@@ -15,7 +15,6 @@ public abstract class AbstractServer {
     //获取net.minecraft.server.entity.Entity
     private static Method    handle;
 
-
     public static void load(){
         //获取服务器版本
         SERVER_VERSION = BossCoolingPlugin.plugin

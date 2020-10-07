@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eef64623-61a7-408e-8e40-bef2975a533e" name="Default Changelist" comment="" />
+    <list default="true" id="eef64623-61a7-408e-8e40-bef2975a533e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/pers/tuershen/bosscooling/calculation/nms/AbstractServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/tuershen/bosscooling/calculation/nms/AbstractServer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1haUsAcgJSaNbjsRfRQ5Rzb6PMQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1.12.2/plugins" />
@@ -60,6 +66,7 @@
       <workItem from="1600861087493" duration="34000" />
       <workItem from="1601002208861" duration="86000" />
       <workItem from="1601981394027" duration="2000" />
+      <workItem from="1602079953826" duration="19000" />
     </task>
     <servers />
   </component>
